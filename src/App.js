@@ -1,10 +1,21 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let title = "Welcome To EOUJI Rentals Platform "; 
+  const link ="http://vercel.com portfoliofjames";
+
   return (
     <div className="App">
-      <header className="App-header">
+      <div className='content'>
+        <h1>{title}</h1>
+        <p>Please fill out the form below, </p>
+        <a href={link}>My portfolio</a>
+
+      </div>
+      
+     
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +28,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
